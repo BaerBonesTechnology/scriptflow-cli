@@ -1,37 +1,9 @@
 {
   "announcements": [
     {
-      "version": "What's next?",
-      "messages": [
-        "Thank you for using scriptflow CLI. I understand that I as the sole maintainer of this project have been a little quiet on updates and announcements. I want to assure you that I am still actively working on this project and I have some exciting updates planned for the future. I will be releasing new versions with new features and improvements regularly. If you have any suggestions or feedback please feel free to reach out to me on Github or through email. Thank you for your support and I hope you enjoy using scriptflow CLI!",
-        "The next update will be focused on improving the user experience and adding a central station for users to upload and download flows. This will allow users to share their flows with the community and also discover new flows created by other users. I am also planning on adding more features to the flow editor to make it more powerful and user friendly. Stay tuned for the next update!"
-      ]
-    },
-    {
-      "version": "1.1.0",
-      "messages": [
-        "In this installment I've updated the tutorial to be more comprehensive and easier to follow. The tutorial now has more steps and sub-steps to guide you through the process of creating and running flows. If you are new to Scriptflow CLI I highly recommend going through the tutorial to get a better understanding of how to use the tool. You can start the tutorial by running `flow init`.",
-        "Flows are now interactive for ongoing processes. As a flutter developer I know how important it is to have a hot reload for your flows. This means that if you are running a flow and you use commands in the terminal they will be inherited, the changes will be reflected in the running flow without having to stop and restart the flow. This is a game changer for development and will make it much easier to iterate on your flows.",
-        "Flows now have parameters! You can now pass parameters to your flows and use them in your commands. This allows you to create more dynamic and flexible flows. For example, you can create a flow that takes a parameter for the name of a file and then uses that parameter in a command to open the file. This is just one example of how parameters can be used to make your flows more powerful. To use parameters in your flows, simply include them in your commands using the syntax `{parameterName}` for required parameters, `?{parameterName}` for nullable parameters, and `{parameterName==defaultValue}` for parameters with default values. When you run the flow, you will be prompted to enter a value for required parameters. This makes it easy to create reusable flows that can be customized with different parameters each time you run them.",
-        "Tons of other bug fixes and improvements! I have been working hard to fix any bugs that have been reported and to improve the overall performance and stability of the tool. If you have any issues or feedback please don't hesitate to reach out to me on Github or through email. Thank you for your support and I hope you enjoy using scriptflow CLI!"
-      ]
-    },
-    {
-      "version": "1.0.2",
-      "messages": [
-        "That last release was a little rough if you were using bash, huh? This patch build is to fix that specific issue of the \"comments\" not working in bash, this was due to improper formatting. Now you can use comments in bash and zsh. Sorry for the inconvenience and thank you for using Scriptflow CLI📜.",
-        "Another issue noticed was the tutorial was not working as intended. This has been fixed and the tutorial is now working as intended. If you want to go through the tutorial you can run `flow init` to start the tutorial.",
-        "Use 'flow update' to fix any scripts affected by the last update. This will fix the comments and the tutorial. If you have any other issues please report them on the Github page."
-      ]
-    },
-    {
-      "version": "1.0.1",
-      "messages": [
-        "Scriptflow now has color for better readability and a tutorial!\n\nFor first time users you can run `flow init` to get started with a tutorial.\n\nFor experienced users you can run `flow help` if you need a refresh of the commands.",
-        "announcements are now a thing they will be updated with every new version of Scriptflow.\n\nYou can run `flow announcements` to see the announcements for the current version of Scriptflow. It's better than the changelog because it's more personal and you can see the announcements for the version you are currently using. And if you're curious about the previous announcements you can run `flow announcements --all` to see all the announcements for all the versions of Scriptflow after {version}.\n\n If you want to see the announcements for a specific version you can run `flow announcements --version <version>` to see the announcements for that version.",
-        "If you were not aware prior, Scriptflow is also on Github. https://www.github.com/Baer-Bones-Technologies/scriptflow-cli \n\nYou can check out the source code, report issues, and even contribute to the project.",
-        "Users are not stuck to VSCode anymore for the flow editor. You can now run `flow edit` to open the flow editor in your default text editor.\n\n If you want to use a specific text editor you can run `flow edit --openCommand <editor command>` to open the flow editor in that text editor.\nFor example, if you want to open the flow editor in Sublime Text you would run `flow edit --openCommand subl`.\n Your default text editor must have a command line interface to work with Scriptflow.\n If you want to use a text editor that doesn't have a command line interface you can run `flow edit --path <path>` to open the flow editor in that text editor and open the flow at the specified path.\n For example, if you want to open the flow editor in Sublime Text and open the flow at the path `~/Documents/flows` you would run `flow edit --editor sublime --path ~/Documents/flows`\n when you change your default text editor it will be saved in the config file and will be used as the default text editor for the flow editor."
-      ]
+      "version": "0.0.1",
+      "message":[ "Welcome and thank you for using Scriptflow CLI! This is the first version of Scriptflow CLI and it includes a tutorial to help you get started. To access the tutorial, run `flow tutorial` in your terminal. If you have any questions or feedback, please feel free to open an issue on our GitHub repository. We hope you enjoy using Scriptflow CLI!",
+      "A few tips to help you get started: \n- To create a new flow, run `flow create <flow-name>`\n- To run a flow, run `flow run <flow-name>`\n- To see all available commands, run `flow help`\n- By default flows are stored in the `~/.flows` directory, but you can change this in the config file.\n- You can also specify a custom path for each flow when you create it or in the config file.\n- Flows can be created with any commands you would normally run in your terminal, just separate them with a comma (,)."]
     }
   ],
   "defaultTextEditorCommand": "code",

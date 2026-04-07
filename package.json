@@ -1,6 +1,6 @@
 {
   "name": "scriptflow-cli",
-  "version": "1.1.1",
+  "version": "0.0.1",
   "description": "A workflow CLI created to streamline any tasks that are done on a regular basis through the terminal",
   "main": "index.js",
   "type": "module",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BaerBonesTechnology/scriptflow-clii.git"
+    "url": "git+https://github.com/BaerBonesTechnology/scriptflow-cli.git"
   },
   "author": "Baer Hous",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BaerBonesTechnology/scriptflow-clii/issues"
+    "url": "https://github.com/BaerBonesTechnology/scriptflow-cli/issues"
   },
-  "homepage": "https://github.com/BaerBonesTechnology/scriptflow-clii#readme",
+  "homepage": "https://github.com/BaerBonesTechnology/scriptflow-cli#readme",
   "keywords": [
     "workflow",
     "scripts",

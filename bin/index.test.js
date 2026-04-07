@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { compareVersions, resolveFlowParams } from './utils.js';
 
-const CURRENT = '1.0.2';
+const CURRENT = '0.0.1';
 
 // ─── compareVersions ────────────────────────────────────────────────
 
