@@ -3,7 +3,17 @@
     {
       "version": "What's next?",
       "messages": [
-        "Working on a way to get user input to be used during flows. This will allow for more dynamic flows and will make Scriptflow even more powerful than it already is. Stay tuned for the next update!"
+        "Thank you for using scriptflow CLI. I understand that I as the sole maintainer of this project have been a little quiet on updates and announcements. I want to assure you that I am still actively working on this project and I have some exciting updates planned for the future. I will be releasing new versions with new features and improvements regularly. If you have any suggestions or feedback please feel free to reach out to me on Github or through email. Thank you for your support and I hope you enjoy using scriptflow CLI!",
+        "The next update will be focused on improving the user experience and adding a central station for users to upload and download flows. This will allow users to share their flows with the community and also discover new flows created by other users. I am also planning on adding more features to the flow editor to make it more powerful and user friendly. Stay tuned for the next update!"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "messages": [
+        "In this installment I've updated the tutorial to be more comprehensive and easier to follow. The tutorial now has more steps and sub-steps to guide you through the process of creating and running flows. If you are new to Scriptflow CLI I highly recommend going through the tutorial to get a better understanding of how to use the tool. You can start the tutorial by running `flow init`.",
+        "Flows are now interactive for ongoing processes. As a flutter developer I know how important it is to have a hot reload for your flows. This means that if you are running a flow and you use commands in the terminal they will be inherited, the changes will be reflected in the running flow without having to stop and restart the flow. This is a game changer for development and will make it much easier to iterate on your flows.",
+        "Flows now have parameters! You can now pass parameters to your flows and use them in your commands. This allows you to create more dynamic and flexible flows. For example, you can create a flow that takes a parameter for the name of a file and then uses that parameter in a command to open the file. This is just one example of how parameters can be used to make your flows more powerful. To use parameters in your flows, simply include them in your commands using the syntax `{parameterName}` for required parameters, `?{parameterName}` for nullable parameters, and `{parameterName==defaultValue}` for parameters with default values. When you run the flow, you will be prompted to enter a value for required parameters. This makes it easy to create reusable flows that can be customized with different parameters each time you run them.",
+        "Tons of other bug fixes and improvements! I have been working hard to fix any bugs that have been reported and to improve the overall performance and stability of the tool. If you have any issues or feedback please don't hesitate to reach out to me on Github or through email. Thank you for your support and I hope you enjoy using scriptflow CLI!"
       ]
     },
     {
